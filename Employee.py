@@ -1,21 +1,24 @@
 class Employee:
-    pass
+    def __init__(self,fname,sname,pay):
+        self.fname = fname
+        self.sname = sname
+        self.email = fname + sname +'@inc.com'
+        self.pay = pay
 
-emp_1 = Employee()
-emp_2 = Employee()
+    def fullname(self):
+        return '{} {}'.format(self.fname, self.sname)
 
-print(emp_1)
-print(emp_2)
 
-emp_1.first="Alex"
-emp_1.last ="Kagai"
-emp_1.email ="alexkagai@inc.com"
-emp_1.pay =50000
+emp_1 = Employee('Alex', 'Kagai', 50000)
+emp_2 = Employee('Alex2', 'Kagai2', 60000)
 
-emp_2.first="Alex2"
-emp_2.last ="Kagai2"
-emp_2.email ="alexkagai2@inc.com"
-emp_2.pay =60000
+# print(emp_1)
+# print(emp_2)
+
+print(emp_1.fullname()) #print(Employee.fullname(emp_1))
 
 print(emp_1.email)
+
+print("\n###################################\n")
+print(emp_2.fullname()) #print(Employee.fullname(emp_2))
 print(emp_2.email)
