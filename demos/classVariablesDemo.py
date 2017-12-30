@@ -1,4 +1,5 @@
-from Employee import Employee
+#! /usr/bin/python
+from juice.Employee import Employee
 
 emp_1 = Employee('Alex', 'Kagai', 50000)
 emp_2 = Employee('Alex2', 'Kagai2', 60000)

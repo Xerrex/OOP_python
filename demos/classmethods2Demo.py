@@ -1,4 +1,5 @@
-from Employee import Employee
+#! /usr/bin/python
+from juice.Employee import Employee
 
 '''
 Demo file shows usage of class methods
