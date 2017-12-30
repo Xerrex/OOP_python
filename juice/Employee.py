@@ -49,3 +49,15 @@ class Employee:
         if day.weekday() > 4:
             return False
         return True
+
+    '''
+    Dunder Methods
+    '''
+    def __repr__(self):
+        return "Employee('{}','{}','{})".format(self.fname,self.sname,self.pay)
+
+    def __str__(self):
+        return "{} - {}".format(self.fullname(),self.email)
+
+    def __add__(self, other):
+        return self.pay + other.pay
