@@ -1,18 +1,19 @@
 class Employee:
-    '''
+    """
     class variables
     demo in classVariablesDemo.py
-    '''
+    """
     raise_rate = 1.04
     num_of_employees = 0
 
-    def __init__(self,fname,sname,pay):
+
+    def __init__(self, fname, sname, pay):
         self.fname = fname
         self.sname = sname
-        self.email = fname + sname +'@inc.com'
+        self.email = fname + sname + '@inc.com'
         self.pay = pay
 
-        Employee.num_of_employees+=1 # constant across all class instances
+        Employee.num_of_employees += 1  # constant across all class instances
 
     def fullname(self):
         return '{} {}'.format(self.fname, self.sname)
@@ -23,6 +24,7 @@ class Employee:
     '''
     class methods Demo in: classmethodsDemo.py
     '''
+
     @classmethod
     def set_raise_rate(cls, amount):
         cls.raise_rate = amount
@@ -31,9 +33,19 @@ class Employee:
     Usage of a class as alternative Constructor
     demo: classmethods2Demo.py 
     '''
+
     @classmethod
     def from_string(cls, employee_str):
         fname, sname, pay = employee_str.split('-')
 
-        return cls(fname,sname,pay)
+        return cls(fname, sname, pay)
 
+    '''
+    Usage of static methods
+    demo: staticmethodsDemo.py
+    '''
+    @staticmethod
+    def is_workingday(day):
+        if day.weekday() > 4:
+            return False
+        return True
