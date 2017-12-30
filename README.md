@@ -9,6 +9,7 @@
 - Juice
     - [Employee](/tree/master/juice/Employee.py)  
     - [Developer](/tree/master/juice/Developer.py)
+    - [Manager](/tree/master/juice/Manager.py)
 - Demo    
     - [Class & Instances](/tree/master/demos/class_and_instancesDemo.py)
     - [Class Variables](/tree/master/demos/classVariablesDemo.py)
@@ -20,6 +21,8 @@
             - [Empty Developer](/tree/master/demos/emptyDeveloperDemo.py)
             - [Overridng Parent](/tree/master/demos/developerDemo.py)
             - [DRY \_\_init\_\_](/tree/master/demos/developerinitDemo.py)
+        - Manager
+            - [Manager Demo](/tree/master/demos/managerDemo.py) 
 
 ## Getting Started
 
