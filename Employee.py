@@ -19,3 +19,21 @@ class Employee:
 
     def give_raise(self):
         self.pay = int(self.pay * self.raise_rate)
+
+    '''
+    class methods Demo in: classmethodsDemo.py
+    '''
+    @classmethod
+    def set_raise_rate(cls, amount):
+        cls.raise_rate = amount
+
+    '''
+    Usage of a class as alternative Constructor
+    demo: classmethods2Demo.py 
+    '''
+    @classmethod
+    def from_string(cls, employee_str):
+        fname, sname, pay = employee_str.split('-')
+
+        return cls(fname,sname,pay)
+
