@@ -6,10 +6,20 @@
   - [Prerequisites](#prerequisites)
   - [Folder structure](#folder-structure)
   - [Getting the repo](#getting-the-repo)
-  
-- [Class & Instances](#table-of-content)
-- [Class Variables](#class-variables)
-- [Class Methods](#class-methods)
+- Juice
+    - [Employee](/tree/master/juice/Employee.py)  
+    - [Developer](/tree/master/juice/Developer.py)
+- Demo    
+    - [Class & Instances](/tree/master/demos/class_and_instancesDemo.py)
+    - [Class Variables](/tree/master/demos/classVariablesDemo.py)
+    - [Class Methods](/tree/master/demos/classmethodsDemo.py)
+    - [Class Methods as Constructors](/tree/master/demos/classmethods2Demo.py)
+    - [Static Methods](/tree/master/demos/staticmethods.py)
+    - [Inheritance]()
+        - Developer
+            - [Empty Developer](/tree/master/demos/emptyDeveloperDemo.py)
+            - [Overridng Parent](/tree/master/demos/developerDemo.py)
+            - [DRY \_\_init\_\_](/tree/master/demos/developerinitDemo.py)
 
 ## Getting Started
 
@@ -36,4 +46,6 @@ OOP/
 ```
 #### Getting the repo
 * **Download & Unzip** or clone project
-
+```
+git clone https://github.com/Xerrex/OOP_python.git
+```
