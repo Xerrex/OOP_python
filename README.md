@@ -7,7 +7,7 @@
   - [Folder structure](#folder-structure)
   - [Getting the repo](#getting-the-repo)
 - Juice
-    - [Employee](/blob/master/juice/Employee.py)  
+    - [Employee](/juice/Employee.py)  
     - [Developer](/blob/master/juice/Developer.py)
     - [Manager](/blob/master/juice/Manager.py)
     - [Employee 2](/blob/master/juice/Employee2.py)
