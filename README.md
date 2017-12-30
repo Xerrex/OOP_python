@@ -8,23 +8,23 @@
   - [Getting the repo](#getting-the-repo)
 - Juice
     - [Employee](/juice/Employee.py)  
-    - [Developer](/blob/master/juice/Developer.py)
-    - [Manager](/blob/master/juice/Manager.py)
-    - [Employee 2](/blob/master/juice/Employee2.py)
+    - [Developer](/juice/Developer.py)
+    - [Manager](/juice/Manager.py)
+    - [Employee 2](/juice/Employee2.py)
 - Demo    
-    - [Class & Instances](/blob/master/demos/class_and_instancesDemo.py)
-    - [Class Variables](/blob/master/demos/classVariablesDemo.py)
-    - [Class Methods](/blob/master/demos/classmethodsDemo.py)
-    - [Class Methods as Constructors](/blob/master/demos/classmethods2Demo.py)
-    - [Static Methods](/blob/master/demos/staticmethods.py)
+    - [Class & Instances](/demos/class_and_instancesDemo.py)
+    - [Class Variables](/demos/classVariablesDemo.py)
+    - [Class Methods](/demos/classmethodsDemo.py)
+    - [Class Methods as Constructors](/demos/classmethods2Demo.py)
+    - [Static Methods](/demos/staticmethods.py)
     - [Inheritance]()
         - Developer
-            - [Empty Developer](/blob/master/demos/emptyDeveloperDemo.py)
-            - [Overridng Parent](/blob/master/demos/developerDemo.py)
-            - [DRY \_\_init\_\_](/blob/master/demos/developerinitDemo.py)
+            - [Empty Developer](/demos/emptyDeveloperDemo.py)
+            - [Overridng Parent](/demos/developerDemo.py)
+            - [DRY \_\_init\_\_](/demos/developerinitDemo.py)
         - Manager
-            - [Manager Demo](/blob/master/demos/managerDemo.py)
-    - [Decorators](/tree/master/demos/employee2Demo.py)             
+            - [Manager Demo](/demos/managerDemo.py)
+    - [Decorators](/demos/employee2Demo.py)             
 
 ## Getting Started
 
