@@ -1,3 +1,4 @@
+#! /usr/bin/python
 from juice.Developer import Developer
 
 '''
